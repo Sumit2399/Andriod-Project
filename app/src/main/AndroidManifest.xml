@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.masterandroid.glbapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Calorie Counter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BMIC"
+            android:label="@string/title_activity_b_m_i_c"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Timetable" />
+        <activity android:name=".DownLoad" />
+        <activity android:name=".GridMainActivity" />
+        <activity android:name=".Loginmainactivity"></activity>
+        <activity android:name=".ModifyTask" />
+        <activity android:name=".AddTask" />
+        <activity android:name=".TodoList" />
+        <activity android:name=".bmi" />
+
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

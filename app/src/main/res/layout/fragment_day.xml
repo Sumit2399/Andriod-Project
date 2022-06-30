@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragmentDay">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/mon"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tue"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/wed"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/thu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/fri"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/sat"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="TextView" />
+
+</LinearLayout>
